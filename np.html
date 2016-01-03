@@ -3,11 +3,23 @@
 <title>Nanami Project</title>
 <meta http-equiv="Content-Type" content="charset=ytf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" type="image/icon" href="logo.jpg" />
 <body>
 <div id="container">
 <canvas id="background-back"></canvas>
 <canvas id="background-front"></canvas>
+<canvas id="characterimage"></canvas>
+<canvas id="textwindow"></canvas>
+<canvas id="sprite"></canvas>
+<div id="top"></div>
 </div>
-<div id="information">Nanami Project --- A HTML5 AVG Engine</div>
+<div id="information" onclick='location.href="https://github.com/xubeiyan/NanamiProject"'>Nanami Project --- A HTML5 AVG Engine</div>
+<script type="text/javascript" src="lib/np.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+	var game = np();
+	game.init();
+}
+</script>
 </body>
 </html>

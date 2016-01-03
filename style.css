@@ -1,11 +1,15 @@
+﻿/* 字体 */
+body {font-family:微软雅黑}
 div#container {margin-left:auto; margin-right:auto; width:800px;height:600px}
-
+/* canvas设定 */
 canvas {width:800px; height:600px}
-canvas#background-back {position:absolute; top:0}
-canvas#background-front {position:absolute; top:0}
-canvas#characterimage {position:absolute; top:0}
-canvas#textwindow {position:absolute; top:0}
-canvas#sprite {position:absolute; top:0}
-canvas#spritetext {position:absolute; top:0}
+canvas#background-back {position:absolute}
+canvas#background-front {position:absolute}
+canvas#characterimage {position:absolute}
+canvas#textwindow {position:absolute}
+canvas#sprite {position:absolute}
+canvas#spritetext {position:absolute}
+/* 接受点击的div */
+div#top {width:800px; height:600px; position:absolute}
 
-div#information {margin-left:auto; margin-right:auto; width:300px}
+div#information {margin-left:auto; margin-right:auto; width:320px; cursor:pointer}
