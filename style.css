@@ -1,0 +1,11 @@
+div#container {margin-left:auto; margin-right:auto; width:800px;height:600px}
+
+canvas {width:800px; height:600px}
+canvas#background-back {position:absolute; top:0}
+canvas#background-front {position:absolute; top:0}
+canvas#characterimage {position:absolute; top:0}
+canvas#textwindow {position:absolute; top:0}
+canvas#sprite {position:absolute; top:0}
+canvas#spritetext {position:absolute; top:0}
+
+div#information {margin-left:auto; margin-right:auto; width:300px}
