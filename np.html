@@ -6,19 +6,19 @@
 <link rel="icon" type="image/icon" href="logo.jpg" />
 <body>
 <div id="container">
-<canvas id="background-back"></canvas>
-<canvas id="background-front"></canvas>
-<canvas id="characterimage"></canvas>
-<canvas id="textwindow"></canvas>
-<canvas id="sprite"></canvas>
-<div id="top"></div>
+<canvas class="stage" id="background-back"></canvas>
+<canvas class="stage" id="background-front"></canvas>
+<canvas class="stage" id="characterimage"></canvas>
+<canvas class="stage" id="textwindow"></canvas>
+<canvas class="stage" id="sprite"></canvas>
+<div class="stage" id="top"></div>
 </div>
 <div id="information" onclick='location.href="https://github.com/xubeiyan/NanamiProject"'>Nanami Project --- A HTML5 AVG Engine</div>
 <script type="text/javascript" src="lib/np.js"></script>
 <script type="text/javascript">
 window.onload = function () {
 	var game = np();
-	game.init();
+	game.start(640,480);
 }
 </script>
 </body>
