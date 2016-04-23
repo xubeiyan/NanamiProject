@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html>
+<head>
 <title>Nanami Project</title>
-<meta http-equiv="Content-Type" content="charset=ytf-8" />
+<meta http-equiv="Content-Type" content="charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link rel="icon" type="image/icon" href="logo.jpg" />
+</head>
 <body>
 <div id="container">
 <canvas id="background-back"></canvas>
@@ -14,6 +16,13 @@
 <div id="top"></div>
 </div>
 <div id="information" onclick='location.href="https://github.com/xubeiyan/NanamiProject"'>Nanami Project --- A HTML5 AVG Engine</div>
+<!-- 背景 -->
+<script type="text/javascript" src="lib/background.js"></script>
+<!-- 脚本 -->
+<script type="text/javascript" src="lib/scenario.js"></script>
+<!-- 脚本执行 -->
+<script type="text/javascript" src="lib/script.js"></script>
+<!-- nanamiproject主要部分 -->
 <script type="text/javascript" src="lib/np.js"></script>
 <script type="text/javascript">
 window.onload = function () {
