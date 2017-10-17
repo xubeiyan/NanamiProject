@@ -11,6 +11,36 @@ AVG HTML ENGINE
 
 #### 简介
 
+一共分为了四个部分，背景（background），人物角色（character image），文字框（text window），以及某个精灵（sprite）层    
+
+
 #### 语法
+
+<>表示参数，[]表示可省略的参数    
+
+##### 背景(background)相关
+
+* `bg <background image>` 显示背景图
+* `bgfadein <background image> [<time>] [<fade in style>]` 背景渐入    
+* `bgfadeout` <background image> <time> <fade out style>` 背景渐出    
+
+##### 背景音乐(background music)相关
+
+* `playbgm <background music> [<repeat>]` 播放背景音乐   
+* `stopbgm` 停止播放背景音乐    
+* `fadeoutbgm [<fade out time>]` 逐渐消去背景音乐     
+
+##### 音效(sound effect)相关
+
+* `playse <sound effect>` 播放音效    
+
+##### 人物角色(character image)相关
+
+* `cishow <character image> [<position>]` 显示角色图像     
+* `cihide [<position>]` 清除角色图像    
+
+##### 文字框(text window)相关
+
+* `text <text>` 显示一段文字    
 
 #### 没想好这儿要写什么
